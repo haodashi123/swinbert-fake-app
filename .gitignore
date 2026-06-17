@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend
+/package-lock.json
+node_modules/
+frontend_web/node_modules/
+dist/
+frontend_web/dist/
+.vite/
+
+# Runtime data and generated outputs
+runtime_data/
+ai_engine_core/outputs/
+outputs/
+*.log
+
+# Local datasets
+sample_dataset/
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Software copyright application/generated materials
+软件著作权申请*
+软著*
+source_code_listing.txt
+export_source_code*.py
+export_source_code*.bat
+export_source_to_txt.py
+export_all_source_code.py
+export_remedy_materials.py
+
+# Local launch helpers
+创建桌面快捷方式.ps1
